@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    } 
+    header{ 
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        text-align: center;
+        background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(aa.webp);
+        background-size: cover;
+      
+    }
+    .container{
+        font-family: sans-serif;
+        font-weight: 700;
+        color: white;
+       
+        
+    }
+    .box {
+       background: none;
+       border-color: rgb(255, 126, 126);
+       color: white;
+      border-radius: 10px;
+      margin-bottom:2%;
+      padding: 9px;
+    
+   
+    }
+    ::placeholder{
+        color:whitesmoke;
+    }
+    h1{
+        margin-bottom:auto;
+        color: white;
+        font-family: sans-serif ;
+        
+    }
+    .btn{
+        width: 7%;
+        height: 5vh;
+        border-radius: 8px;
+        cursor: pointer;
+        background: none;
+        color: white;
+        border-color: white;
+        transition: .5s ease;
+
+       
+        
+    }
+    .btn:hover{
+        background:white;
+    color: #000;
+        
+    }
+
+</style>
+<body>
+    <header>
+        <form>
+            <h1><b> CONTACT</b></h1><br><br>
+            <div class="container">
+                <label for="first name">Full Name</label>
+            <input type="text"   class="box" name="Name" placeholder="Enter Name"><br><br>
+            <label for="emali">Email Address:</label>
+            <input type="email" class="box"name="email" placeholder="Enter Email"><br><br>
+            <label for="contact">Contact No:</label>
+            <input type="phone" class="box" name="phone" placeholder="Enter No"><br><br>
+            <label for="your">Your Enquriy</label><br><br>
+            <textarea name="enquriy" class="box"  cols="30" rows="10"></textarea>
+            <br><br>
+            <button type="submit" class="btn">Submit Enquriy</button>
+
+        
+            </div>
+            
+        </form>
+    </header>
+</body>
+</html>
